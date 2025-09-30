@@ -10,7 +10,7 @@ author:
   name: "Sujoy Paul"
   avatar: "/assets/images/profile.jpg"
   bio: "Exploring business value through technology and strategy"
-  location: "Your Location"
+  location: "Oakville, Ontario, CA"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -18,9 +18,9 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/sujoyp/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/sujoypaul"
+    - #label: "GitHub"
+      #icon: "fab fa-fw fa-github"
+      #url: "https://github.com/sujoypaul"
 
 # Theme Settings - USE THIS FOR GITHUB PAGES
 remote_theme: "mmistakes/minimal-mistakes"
@@ -73,6 +73,6 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/sujoyp/  "
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/sujoypaul"
+    - #label: "GitHub"
+      #icon: "fab fa-fw fa-github"
+      #url: "https://github.com/sujoypaul"
