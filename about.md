@@ -16,3 +16,17 @@ You can find the source code for Jekyll at GitHub:
 
 
 [jekyll-organization]: https://github.com/jekyll
+
+---
+title: "About"
+layout: single
+permalink: /about/
+toc: true
+toc_sticky: true
+---
+
+## My Background
+I have graduated in Chemical Engineering from University of Toronto and have an MBA from Ivey Business School, University of Western Ontario.  I also have a Green Belt on Lean/Six Sigma
+
+## Experience
+I have worked across the whole data spectrum including AI, Data Management, and Data Science while building teams and developing strategy.  I have also taught in the academia.
