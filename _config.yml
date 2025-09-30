@@ -8,7 +8,7 @@ baseurl: ""
 # Author Settings
 author:
   name: "Sujoy Paul"
-  avatar: "/assets/images/profile.jpg"  # Optional - add your photo later
+  avatar: "/assets/images/profile.jpg"
   bio: "Exploring business value through technology and strategy"
   location: "Your Location"
   links:
@@ -22,28 +22,17 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/sujoypaul"
 
-# Theme Settings
-theme: minimal-mistakes-jekyll
+# Theme Settings - USE THIS FOR GITHUB PAGES
+remote_theme: "mmistakes/minimal-mistakes"
 
 # Build Settings
 markdown: kramdown
 permalink: /:categories/:title/
 highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
 
 # Plugins
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
   - jekyll-include-cache
-
-# Pagination
-paginate: 5
-paginate_path: /page:num/
 
 # Table of Contents
 toc:
@@ -80,40 +69,10 @@ footer:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:your-email@example.com"
+      url: "mailto:sujoyp@hotmailexample.com"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/yourprofile"
+      url: "https://www.linkedin.com/in/sujoyp/  "
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/sujoypaul"
-
-# Include these in build
-include:
-  - _pages
-
-# Exclude from processing
-exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - .asset-cache
-  - .bundler
-  - .jekyll-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - Rakefile
-  - readme.md
-  - README.md
-  - tmp
