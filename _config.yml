@@ -99,3 +99,6 @@ defaults:
       author_profile: true
       toc: true
       toc_sticky: true    # ✅ This makes the TOC float as you scroll
+
+markdown: kramdown
+permalink: /:categories/:title/
