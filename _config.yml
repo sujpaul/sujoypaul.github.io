@@ -23,10 +23,11 @@ title: "AI: Exploring business value through technology and strategy "
 description: >- # this means to ignore newlines until "baseurl:"
  Exploring the use of AI in different domains
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://sujpaul.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://sujoypaul.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  sujpaul
-repository: sujpaul/sujoypaul.github.io
+#cls
+#repository: sujpaul/sujoypaul.github.io
 
 
 # Use Minimal Mistakes from GitHub
