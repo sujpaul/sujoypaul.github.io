@@ -1,0 +1,100 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: "AI: Exploring business value through technology and strategy "
+#email: sujoyp@hotmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+ Exploring the use of AI in different domains
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sujpaul.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#twitter_username: jekyllrb
+github_username:  sujpaul
+repository: sujpaul/sujoypaul.github.io
+
+
+# Use Minimal Mistakes from GitHub
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+#    - label: "Email"
+#     icon: "fas fa-envelope"
+#     url: "mailto:sujoyp@hotmail.com"
+
+# Sidebar Author Info
+author:
+  name   : "Sujoy Paul"
+  avatar : "/assets/images/profile.jpg" # place your photo here
+  bio    : "Exploring AI Value | Exploring ML & Deep Learning"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/sujoyp/ "
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/sujpaul"
+
+# Theme settings
+minimal_mistakes_skin: "default" # options: air, contrast, dark, neon, sunrise
+
+# Permalink format
+permalink: /:categories/:year/:month/:day/:title/
+
+# Collections
+collections:
+  posts:
+    output: true
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      toc: true
+      toc_sticky: true    # ✅ This makes the TOC float as you scroll
