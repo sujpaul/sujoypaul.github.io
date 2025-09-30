@@ -2,7 +2,7 @@
 title: "AI Blog"
 name: "AI Blog"
 description: "Exploring business value through technology and strategy"
-url:"https://sujpaul.github.io"
+url: "https://sujpaul.github.io"    # ← Line 5 - this now has proper syntax
 baseurl: ""
 
 # Author Settings
