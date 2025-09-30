@@ -24,6 +24,8 @@ author:
 
 # Theme Settings - USE THIS FOR GITHUB PAGES
 remote_theme: "mmistakes/minimal-mistakes"
+# Theme Settings
+minimal_mistakes_skin: "default"
 
 # Build Settings
 markdown: kramdown
